@@ -9,8 +9,13 @@
   "author": "",
   "license": "ISC",
   "description": "",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist",
   "dependencies": {
     "express": "^5.1.0",
     "openai": "^6.1.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
